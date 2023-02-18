@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import { PuffLoader } from 'react-spinners';
-import Footer from '../Shared/Footer/Footer';
+// import Footer from '../Shared/Footer/Footer';
 import Header from '../Shared/Header/Header';
 
 const Main = ({ children }) => {
@@ -10,7 +10,7 @@ const Main = ({ children }) => {
         setLoading(true)
         setTimeout(() => {
             setLoading(false)
-        }, 2000);
+        }, 500);
     }, [])
     return (
         <div>
@@ -27,7 +27,7 @@ const Main = ({ children }) => {
                     <>
                         <Header></Header>
                         <Outlet></Outlet>
-                        <Footer></Footer>
+                        {/* <Footer></Footer> */}
                     </>
             }
 
