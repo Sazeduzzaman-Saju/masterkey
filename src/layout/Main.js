@@ -67,7 +67,7 @@ const Main = () => {
                                         </span>
                                     </Link>
                                 ))}
-                                <div className="menu_banner flex flex-col justify-center items-center px-4 pt-16 mt-6 rounded-sm w-full">
+                                <div className="menu_banner flex flex-col justify-center items-center px-4 pt-16 mt-6 rounded-sm">
                                     <h1 className="banner_1_title text-white text-2xl ">Need Help</h1>
                                     <p className="banner_1_title text-white text-lg pb-3 text-center">Lorem Ipsum is simply
                                         dummy text of the
