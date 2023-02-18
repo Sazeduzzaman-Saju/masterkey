@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 
 
 // import required modules
-import { Navigation, Pagination } from "swiper";
+import { Navigation } from "swiper";
 
 export default function App() {
     const product = [
@@ -129,7 +129,7 @@ export default function App() {
                 pagination={{
                     clickable: true,
                 }}
-                modules={[Pagination, Navigation]}
+                modules={[Navigation]}
                 className="mySwiper "
             >
                 {product.map((data) => <SwiperSlide key={product._id}>
