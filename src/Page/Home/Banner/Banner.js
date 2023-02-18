@@ -31,13 +31,13 @@ const Banner = () => {
                             </div>
                         </div>
                         <div className='flex justify-start items-center pt-5'>
-                            <button className="btn btn-outline hover:bg-grey text-grey-darkest font-bold py-2 px-4 rounded inline-flex items-center mr-3">
+                            <button className="outline btn btn-ghost outline-[#38FF4C]  mr-3">
                                 <img src="https://i.ibb.co/rMYmYNL/icons8-filled-heart-32-1-1.png" alt="" />
                             </button>
 
-                            <button className="outline btn btn-ghost outline-green-500  mr-3">Add to card</button>
+                            <button className="outline btn btn-ghost outline-[#38FF4C]  mr-3">Add to card</button>
 
-                            <button className="btn btn-outline hover:bg-grey text-grey-darkest font-bold py-2 px-4 rounded inline-flex items-center">
+                            <button className="bg-[#38FF4C] outline btn btn-ghost outline-[#38FF4C]  mr-3">
                                 <span>Buy Now</span>
                             </button>
 
@@ -48,7 +48,7 @@ const Banner = () => {
             <div>
                 <img src="https://i.ibb.co/hM6HqBk/Frame-22.png" alt="" />
             </div>
-        </div>
+        </div >
     );
 };
 
