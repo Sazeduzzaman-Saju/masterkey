@@ -134,7 +134,7 @@ export default function App() {
             >
                 {product.map((data) => <SwiperSlide key={product._id}>
                     <div className="card bg-base-100 shadow-xl mt-5 mb-5">
-                        <figure><img className="w-32" src={data.picture} alt="Shoes" /></figure>
+                        <figure><img className="w-32 h-32" src={data.picture} alt="Shoes" /></figure>
                         <div className="p-5">
                             <h2 className="text-lg">{data.name.slice(0, 10)}</h2>
                             <p>Price {data.price}</p>
