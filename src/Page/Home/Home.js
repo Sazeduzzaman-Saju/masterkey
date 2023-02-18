@@ -7,7 +7,7 @@ import Banner from './Banner/Banner';
 const Home = () => {
     useWebTitle('Home')
     return (
-        <div className=''>
+        <div className='max-w-6xl mx-auto'>
             <Banner></Banner>
             <div className='max-w-5xl'>
                 <div className='flex'>
